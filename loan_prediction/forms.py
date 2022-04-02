@@ -19,8 +19,6 @@ class PipelineInformationForm(forms.Form):
     else:
         PIPELINE_MODELS = ()
 
-    print(tuple(PIPELINE_MODELS))
-
     EDUCATION_CHOICES = (
         ("Graduate", "Graduate"),
         ("Not Graduate", "Not Graduate")
