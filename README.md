@@ -2,6 +2,8 @@
 
 The simple application aims to give us a visual of how the `sklearn.pipeline.Pipeline` can be serialized and deployed for making predictions on a live web server.
 
+![Preview](files/preview.gif)
+
 The topic started with the DSN-UNIILORIN cohort 2, where we talked about data modeling machine learning for classification and regression tasks. The aspect we tackle here though is the classification task - the loan prediction dataset to be precise. We aim to be able to make a prediction of the loan status using the data point (feature columns):
 
 ```python
